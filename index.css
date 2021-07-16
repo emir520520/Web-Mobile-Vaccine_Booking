@@ -1,0 +1,92 @@
+body{
+    background-image: url("../images/imag-1.png");
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    background-size:contain;
+}
+
+header{
+    position:fixed;
+    background-color:seagreen;
+    height:11%;
+    width:95%;
+    top:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    font-size: 1.38em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    color:firebrick;
+}
+
+h2{
+    font-size: 1.23em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+    text-align:center;
+
+}
+
+#div1{
+    height:233px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    "link1",
+    "link2";
+}
+
+#link_1{
+    grid-area:"link1";
+    margin-top:260px;
+    margin-left:21%;
+    width:90%;
+}
+
+#a1{
+    font-size:1.8em; 
+    text-align: center;
+    font-family: Courier New;
+    font-weight:bold;
+    color:springgreen;
+}
+
+#link_2{
+    grid-area:"link2";
+    margin-top: 111px;
+    width:90%;
+    margin-left:21%;
+}
+
+#a2{
+    font-size:2em; 
+    text-align: center;
+    font-family: Courier New;
+    font-weight: bold;
+    color:springgreen;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    display: inline-block;
+    background-color:slateblue;
+    width:66%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:95%;
+    background-color: lightblue;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2em;
+}

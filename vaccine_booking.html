@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vaccine Booking</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=375px,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/booking.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../js/booking.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>COVID-19 Vaccine Booking System</h1>
+        <h2 id="h2-1">Assignment#1/Yuxiao Fang/991576960</h2>
+    </header>
+
+    <h2 id="h2-2">Vaccine Booking</h2>
+
+    <form id="form1">
+        <label id="date_label">Date:</label><input type="date" id="date">
+        <label id="time_label">Time:</label><input type="time" id="time">
+        <label id="OHIP_label">OHIP#:</label><input type="numebr" id="OHIP">
+        <label id="email_label">Email address:</label><input type="text" id="email">
+        <label id="phone_label">Phone Number:</label><input type="numebr" id="phone">
+        
+        <div id="sub_div">
+            <button id="submit">Book</button>
+        </div>
+    </form>
+
+    <div id="back">
+        <button><a id="btn-back" href="../index.html">Back to main page</a></button>
+    </div>
+
+    <footer>
+        <p>fangyux/Davis/<span id="footer_date"></span></p>
+    </footer>
+</body>
+
+</html>

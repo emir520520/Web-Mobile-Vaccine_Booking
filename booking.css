@@ -1,0 +1,151 @@
+body{
+    background-image: url("../images/imag-1.png");
+    background-color: rgba(255,255,255,0.88);
+    background-blend-mode:lighten;
+    background-size:contain;
+}
+
+header{
+    position:fixed;
+    background-color:seagreen;
+    height:11%;
+    width:96%;
+    top:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:96%;
+    background-color: lightblue;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+h1{
+    font-size: 1.36em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    color:firebrick;
+}
+
+#h2-1{
+    font-size: 1.26em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+#h2-2{
+    margin-top:123px;
+    font-size:2.3em;
+    text-align:center;
+    font-weight:bold;
+}
+
+#form1{
+    margin-top:15%;
+    margin-bottom:10%;
+    display:grid;
+    grid-template-areas:
+    "dl date"
+    "tl time "
+    "Ol OHIP"
+    "el email"
+    "pl phone"
+    "button button";
+}
+
+#date_label{
+    grid-area: "dl";
+}
+
+#time_label{
+    grid-area: "tl";
+}
+
+#OHIP_label{
+    grid-area: "Ol";
+}
+
+#email_label{
+    grid-area: "el";
+}
+
+#phone_label{
+    grid-area: "pl";
+}
+
+#date{
+    grid-area: "date";
+}
+
+#time{
+    grid-area: "time";
+}
+
+#OHIP{
+    grid-area: "OHIP";
+}
+
+#email{
+    grid-area: "email";
+}
+
+#phone{
+    grid-area: "phone";
+}
+
+
+/* #sub{
+    margin-top:25px;
+    grid-area:"button";
+    display:flex;
+    justify-content: center;
+} */
+
+#sub_div{
+    grid-area:"button";
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit{
+    font-size:1.6em;
+    color:steelblue;
+    margin-left:100%;
+}
+
+#back{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:25%;
+}
+
+#btn-back{
+    font-size:2.1em;
+    color:yellowgreen;
+}
+
+label {
+    text-align: right;
+    font-weight:bold;
+    font-size:1.38em;
+    margin-right:5%;
+    height:52px;
+}
+
+input{
+    width:65%;
+    height:48%;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
